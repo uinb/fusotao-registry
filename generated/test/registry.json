@@ -1,0 +1,16 @@
+[
+    {
+        "name": "fxdx",
+        "staked": "0x000000000000156e10204b6b9b400000",
+        "merkleRoot": "0x082825985c8993928996ba04ee131aa9d6739a768d3fc4b67b8eee9b8cd85015",
+        "startFrom": 26360,
+        "sequence": [
+            5,
+            43992
+        ],
+        "status": 2,
+        "address": "5GxCNDyhqv2hx2zcQfse58vLWcueJKMjXPTgzcJbi9khtNrf",
+        "website": "https://testnet.fxdx.finance",
+        "logo": "https://testnet.fxdx.finance/fxdx.png"
+    }
+]
