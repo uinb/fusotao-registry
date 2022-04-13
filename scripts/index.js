@@ -38,8 +38,8 @@ const run = async () => {
   const validDominatorsList = refactorDominatorsList.map(item => {
     const metaData = dominatorsList.find(meta => item.address === meta.address);
     return {
-      ...item,
       ...metaData,
+      address: item.address,
     }
   })
   const testFileName = `generated/test/registry.json`;
