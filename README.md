@@ -34,6 +34,7 @@ Below is an example for BEP20 USDT:
 
 Make sure you filled the correct `code`, `symbol`, `type`, `decimals` and `contract` fields. The `code` can be found on the rpc: https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fgateway.mainnet.octopus.network%2Ffusotao%2F0efwa9v0crdx4dg3uj8jdmc5y7dj4ir2#/chainstate
 
+<img width="1511" alt="image" src="https://github.com/uinb/fusotao-registry/assets/22611640/9c65fff7-5126-41d0-8f8c-49f66d473c31">
 
 
 5. Commit and Push Your Changes
