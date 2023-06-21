@@ -1,4 +1,4 @@
-How to Submit a Pull Request for Adding Logo and Contract Address
+# How to Submit a Pull Request for Adding Logo and Contract Address
 
 If you are interested in listing your tokens on Fusotao, you can help by submitting a pull request that adds your logo and contract address to the repository. Here is a step-by-step guide on how to do it:
 
@@ -8,12 +8,16 @@ The first step is to create a fork of the Fusotao Registry repository. This will
 2. Clone the Repository
 Once you have created a fork, you will need to clone it to your local machine. To do this, copy the URL of your forked repository and run the following command in your terminal:
 
+```
 git clone <forked_repository_url>
+```
 
 3. Create a New Branch
 Before making any changes, create a new branch in your local repository. This will help keep your changes separate from the main branch and make it easier to submit your changes as a pull request. To create a new branch, run the following command:
 
+```
 git checkout -b <new_branch_name>
+```
 
 4. Add Your Logo and Contract Address
 Now that you have created a new branch, you can start making changes to the code. In this case, you will need to create a folder names with your contract address under the appropriate chain folder, then put a `logo.png` and `token.json` into it.
@@ -40,9 +44,11 @@ Make sure you filled the correct `code`, `symbol`, `type`, `decimals` and `contr
 5. Commit and Push Your Changes
 Once you have made your changes, it's time to commit them to your local repository and push them to your forked repository on GitHub. To do this, run the following commands:
 
+```
 git add .
 git commit -m "Added logo and contract address for <project>"
 git push origin <new_branch_name>
+```
 
 6. Submit a Pull Request
 Finally, it's time to submit your changes as a pull request to the main Fusotao Registry repository. To do this, go to your forked repository on GitHub and click on the "New pull request" button. Follow the prompts to create a new pull request and wait for the project maintainers to review and merge your changes.
